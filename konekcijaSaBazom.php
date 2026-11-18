@@ -3,7 +3,7 @@
 $host = "localhost";
 $username = "root";
 $password = "";
-$database = "turistickaagencijaphp";
+$database = "baza";
 
 $konekcija = new mysqli($host,$username,$password,$database);
 $konekcija->set_charset('utf8');
